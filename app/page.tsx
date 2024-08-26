@@ -1,6 +1,9 @@
-//import Image from "next/image";
+//Always import bootstrap into top level file.  It will trickle down
+import "bootstrap/dist/css/bootstrap.min.css";
+
 
 import Testimony from './Testimony.jsx'
+import Footer from './Footer.jsx'
 
 export default function Home() {
   return (
@@ -13,6 +16,7 @@ export default function Home() {
 
         <p>Here is where I'm going to test my "testimony" component</p>
         <Testimony /> 
+        <Footer /> 
       </div>
     </main>
   );
