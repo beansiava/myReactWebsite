@@ -13,4 +13,4 @@ https://dev.to/muzammilrawjani/mobile-first-development-best-practices-with-next
 - Ensure visitors walk away impressed by my career 
 
 3) Easy to Update
-- If I can't keep this up to date, there's no reason to include it
+- If I can't keep this up to date easily, there's no reason to include it

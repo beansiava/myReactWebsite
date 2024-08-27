@@ -10,6 +10,8 @@
 - A single year can have multiple nested entries
 - if two or more entries are part of the same year, the year
 is not repeated
+- can be seen through a vertical scroll 
+- NO "nav" for this.  just a clean scroll
 
 5) Timeline Card 
 
