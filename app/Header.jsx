@@ -1,24 +1,35 @@
 "use client"
 
 import React, { Component } from 'react';
+import "./myStyles.css"
 
 class Header extends Component {
     state = {  } 
     render() { 
         return (
         <div 
-            class="p-5 text-center bg-image" 
+            class="text-center bg-image bottomFixParent" 
             style={{ 
-                backgroundImage: `url("https://www.dropbox.com/scl/fi/axfhktqcbjy8ks47lhzri/20180308_Startup-island_Week-1_Day-5-Rodeo-47.jpg?rlkey=vz19qrshi1bdzozen1zqxjsdy&st=4v9nill4&raw=1")`, 
-                height: "500px",
-                width: "1000px"
-                
+                backgroundImage: `url("https://www.dropbox.com/scl/fi/efseeqdxyx7e4tzwwatn7/08_transparent_sean.png?rlkey=q1fa6ok9j2fnqgd0motea2v9q&st=vui0l6l3&raw=1")`,
+                backgroundSize: "cover",
+                backgroundPosition: "center", /* Optional: centers the image in the container */
+                backgroundRepeat: "no-repeat", /* Optional: prevents the image from repeating */
+                width: "100%",
+                height: "100vh"
+
         }}>
-        {/* // <div class="p-5 text-center bg-image" 
-        // styles="backgroundImage 'url(https://www.dropbox.com/scl/fi/axfhktqcbjy8ks47lhzri/20180308_Startup-island_Week-1_Day-5-Rodeo-47.jpg?rlkey=vz19qrshi1bdzozen1zqxjsdy&st=4v9nill4&raw=1)';height: 400px;"
-        // > */}
-    {/* <img className="profile-photo" src="https://www.dropbox.com/scl/fi/axfhktqcbjy8ks47lhzri/20180308_Startup-island_Week-1_Day-5-Rodeo-47.jpg?rlkey=vz19qrshi1bdzozen1zqxjsdy&st=4v9nill4&raw=1" /> */}
-          <div class="mask" styles="background-color: rgba(0, 0, 0, 0.6); ">
+          <div 
+            class="mask bottomFixChild" 
+            style={{
+                backgroundColor: "rgba(0, 0, 0, 0.5)",
+                // maskImage: "linear-gradient(white, black)",
+                padding: "3%",
+                marginTop: "50%",
+                position: "left",
+                width: "100vw",
+                display: "inline-block",
+                gap: "10px"
+            }}>
             <div class="d-flex justify-content-center align-items-center h-100">
               <div class="text-white">
                 <h1 class="mb-3">Sean Biava</h1>
