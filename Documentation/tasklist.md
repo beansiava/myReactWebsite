@@ -5,5 +5,5 @@ Current Tasks (max 3):
 
 
 Things to learn: 
-- How to manage a feature branch 
-- 
+- How to manage a feature branch: https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow
+- TailwindCSS: how to change or override defaults
