@@ -4,11 +4,13 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 import Testimony from './Testimony.jsx'
 import Footer from './Footer.jsx'
+import Header from './Header.jsx'
 
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
+        <Header /> 
         <p>I'm going to test a "card" component here</p>
 
 
