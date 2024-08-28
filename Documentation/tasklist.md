@@ -1,6 +1,6 @@
 Current Tasks (max 3): 
-- Update the footer font-color and trim the elements
-- Add a header bootstrap component.  Spend time making it nice 
+- Host the current version of main and test
+- Complete Resume and add to the current version of the site 
 - Add props to the testimony component.
 
 
