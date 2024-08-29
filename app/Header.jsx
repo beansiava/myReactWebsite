@@ -34,12 +34,30 @@ class Header extends Component {
               <div class="text-white">
                 <h1 class="mb-3">Sean Biava</h1>
                 <h4 class="mb-3">Growth Product Manager</h4>
-                <a data-mdb-ripple-init="" 
-                    class="btn btn-outline-light btn-lg" 
-                    href="https://www.dropbox.com/scl/fi/vkupn6piqzq3fqupbnlbr/Screenshot-2024-08-01-at-6.37.49-PM.png?rlkey=ga3n313qyhy20z0cxtmvvtjnh&st=t9yatk3q&raw=1" 
-                    role="button">View Resume
-                </a>
-                
+                <div class="inline-block" style={{ display: 'flex'}}>
+                    <a data-mdb-ripple-init="" 
+                        class="btn btn-outline-light btn-lg" 
+                        href="https://www.dropbox.com/scl/fi/vkupn6piqzq3fqupbnlbr/Screenshot-2024-08-01-at-6.37.49-PM.png?rlkey=ga3n313qyhy20z0cxtmvvtjnh&st=t9yatk3q&raw=1" 
+                        role="button"
+                        style={{ flex: 1 }}
+                        >View Resume
+    
+                    </a>
+                    <div>
+                        <a href="https://www.linkedin.com/in/seanbiava/" target="_blank" rel="noopener noreferrer">
+                            <img 
+                            src="https://www.dropbox.com/scl/fi/6svhd160w3s1qbfelz3ee/LI-In-Bug.png?rlkey=udn9vulneppng8hlr22vqswj8&raw=1" 
+                            alt="LinkedIn Bug" 
+                            style={{ 
+                                maxWidth: '50px', 
+                                height: 'auto',
+                                paddingTop: "20%",
+                                paddingLeft: "30%",
+                            }} 
+                            />
+                        </a>
+                    </div>
+                </div>
               </div>
             </div>
           </div>
