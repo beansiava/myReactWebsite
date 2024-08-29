@@ -2,9 +2,9 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 
 
-import Testimony from './Testimony.jsx'
-import Footer from './Footer.jsx'
-import Header from './Header.jsx'
+import Testimony from '../components/Testimony.jsx'
+import Footer from '../components/Footer.jsx'
+import Header from '../components/Header.jsx'
 
 export default function Home() {
   return (
