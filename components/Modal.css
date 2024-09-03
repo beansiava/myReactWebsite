@@ -39,8 +39,22 @@
 
   }
   
-  .modal-content {
+  .modal-children {
     margin-top: 5%;
     margin-left: 5%;
     margin-right: 5%;
+  }
+
+  .modal-details {
+    margin: 5%;
+    display: flex;
+  }
+
+  .modal-summary {
+    margin: 5%;
+  }
+
+  .modal-detail-img {
+    height: 60%;
+    width: 100%;
   }

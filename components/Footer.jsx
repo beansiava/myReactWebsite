@@ -26,7 +26,14 @@ const Footer = () => {
         <div>
 
           <button onClick={handleOpenModal}>Open Modal</button>
-          <Modal isOpen={isModalOpen} onClose={handleCloseModal} title="Project: Card Advantage" children="test">
+          <Modal 
+            isOpen={isModalOpen} 
+            onClose={handleCloseModal} 
+            title="Project: Card Advantage" 
+            children="test"
+            summary="summary data"
+            img = 'url("https://www.dropbox.com/scl/fi/efseeqdxyx7e4tzwwatn7/08_transparent_sean.png?rlkey=q1fa6ok9j2fnqgd0motea2v9q&st=vui0l6l3&raw=1")'
+            >
             <p>This is a reusable modal component in a function component!</p>
           </Modal>
         </div>
