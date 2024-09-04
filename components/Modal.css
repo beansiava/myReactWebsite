@@ -62,7 +62,10 @@
   }
 
   .modal-detail-img {
-    max-width: 50%;
+    background-size: cover;
+    min-width: 50%;
+    height: 200px;
+    margin-left: 5%;
   }
 
   .modal-children {

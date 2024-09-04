@@ -1,9 +1,10 @@
 import React from 'react';
-import "./modal.css"
+import "./Modal.css"
+import modalImageTest from "../assets/MeTakingNotes.jpg"
 
 const Modal = ({ isOpen, onClose, title, summary, img, children}) => {
     if (!isOpen) return null; 
-  
+
     return (
       <div className="modal-overlay">
         <div className="modal-container">
@@ -21,16 +22,13 @@ const Modal = ({ isOpen, onClose, title, summary, img, children}) => {
                 className="modal-detail-img"
                 style= {{
                     backgroundImage: `url(${img})`,
-                    backgroundSize: 'cover', 
-                    width: "50%",
+                    // backgroundImage: `url(${modalImageTest})`,
                 }}
             >
 
             </div>
 
           </div>
-
-          <div className="modal-children">{children}</div>
          
         </div>
       </div>
