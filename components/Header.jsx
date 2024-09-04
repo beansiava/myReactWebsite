@@ -19,7 +19,7 @@ class Header extends Component {
 
         }}>
           <div 
-            class="mask bottomFixChild" 
+            class="mask bottomFixChild raise-header-banner" 
             style={{
                 backgroundColor: "rgba(0, 0, 0, 0.5)",
                 // maskImage: "linear-gradient(white, black)",

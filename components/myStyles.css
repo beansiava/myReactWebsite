@@ -14,3 +14,10 @@
     padding: 10px; /* Optional: some padding for content */
 }
 
+@media (max-width: 768px) {
+    .raise-header-banner {
+      /* transform: translateY(-50%); */
+      position: absolute;
+      bottom: 30%;
+    }
+  }
