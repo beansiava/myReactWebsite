@@ -11,14 +11,18 @@ const Modal = ({ isOpen, onClose, title, summary, img, children}) => {
             -
           </button>
           {title && <h2 className="modal-title">{title}</h2>}
+          <div className="modal-divider"></div>
+
           <div className="modal-summary"><p>{summary}</p></div>
           <div className="modal-details">
-            <div className="modal-children">{children}</div>
+            <div className="">{children}</div>
 
             <div 
                 className="modal-detail-img"
                 style= {{
-                    backgroundImage: img,
+                    backgroundImage: `url(${img})`,
+                    backgroundSize: 'cover', 
+                    width: "50%",
                 }}
             >
 

@@ -32,7 +32,7 @@ const Footer = () => {
             title="Project: Card Advantage" 
             children="test"
             summary="summary data"
-            img = 'url("https://www.dropbox.com/scl/fi/efseeqdxyx7e4tzwwatn7/08_transparent_sean.png?rlkey=q1fa6ok9j2fnqgd0motea2v9q&st=vui0l6l3&raw=1")'
+            img = "'https://www.dropbox.com/scl/fi/axfhktqcbjy8ks47lhzri/20180308_Startup-island_Week-1_Day-5-Rodeo-47.jpg?rlkey=vz19qrshi1bdzozen1zqxjsdy&st=c57bu6ez&raw=1'"
             >
             <p>This is a reusable modal component in a function component!</p>
           </Modal>
